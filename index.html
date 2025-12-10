@@ -12,9 +12,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
-      rel="stylesheet"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Fira+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+      />
+    </noscript>
     <link
       rel="preload"
       fetchpriority="high"
@@ -22,17 +30,11 @@
       href="./assets/phone-hero-dtW2iU9k.webp"
       type="image/webp"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
     <link rel="modulepreload" href="./index.js" />
 
     <script type="module" crossorigin src="./index.js"></script>
+    <link rel="preload" href="./assets/index-B9_8LN_o.css" as="style" />
     <link rel="stylesheet" crossorigin href="./assets/index-BR213YqV.css" />
   </head>
   <body>
