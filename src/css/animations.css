@@ -1,9 +1,0 @@
-.button-anim {
-  opacity: 1;
-  transition: opacity 250ms ease-in-out;
-}
-
-.button-anim:hover,
-.button-anim:focus {
-  opacity: 0.5;
-}
