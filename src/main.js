@@ -7,7 +7,7 @@ window.addEventListener('load', async () => {
 
 async function initApp() {
   try {
-    await initMobileMenu();
+    initMobileMenu;
     console.log('OK');
   } catch (err) {
     console.error('err', err);
